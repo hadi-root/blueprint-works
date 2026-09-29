@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact | Blueprint Works</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%23000%27/%3E%3Crect x=%2712%27 y=%2712%27 width=%2740%27 height=%2740%27 fill=%27none%27 stroke=%27%23d10f05%27 stroke-width=%274%27/%3E%3Cline x1=%2712%27 y1=%2732%27 x2=%2752%27 y2=%2732%27 stroke=%27%23d10f05%27 stroke-width=%274%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hero">
+  <div class="wrap">
+    <header>
+      <a class="logo" href="index.html"><i></i>Blueprint Works</a>
+      <nav><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="process.html">Process</a><a aria-current="page" class="keep" href="contact.html">Contact</a></nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch between light and dark mode"><span class="knob"></span></button>
+    </header>
+  </div>
+  <div class="wrap page-head"><h1>Start a project</h1><p>Fill in the form and your email app opens with the message ready to send.</p></div>
+</div>
+<section>
+  <div class="wrap contact-grid">
+    <form id="contact-form" class="reveal" action="https://formsubmit.co/hadivga@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New project inquiry — Blueprint Works">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+      <div class="field"><label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div class="field"><label for="phone">Mobile number (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="With country code"></div>
+      <div class="field"><label for="type">What do you want built?</label>
+        <select id="type" name="type"><option>Website</option><option>App</option><option>Software</option><option>Not sure yet</option></select></div>
+      <div class="field"><label for="message">Tell us about it</label><textarea id="message" name="message" required></textarea></div>
+      <button class="btn" type="submit">Send message</button>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </form>
+    <aside class="side reveal" style="--i:2">
+      <h3>Email</h3><p>hadivga@gmail.com</p>
+      <h3>What to include</h3><p>What you want to build, who it is for and any deadline.</p>
+      <h3>Message us</h3>
+      <div class="social">
+        <a class="btn" href="https://wa.me/919400118473?text=Hi%20Blueprint%20Works%2C%20I%20have%20a%20project" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn" href="https://instagram.com/hadi_bin_yoosuf" target="_blank" rel="noopener">Instagram @hadi_bin_yoosuf</a>
+      </div>
+    </aside>
+  </div>
+</section>
+<footer><div class="wrap"><span>&copy; 2026 Blueprint Works &mdash; Hadi</span><span class="foot-links"><a href="mailto:hadivga@gmail.com">hadivga@gmail.com</a><a href="https://www.instagram.com/hadi_bin_yoosuf/" target="_blank" rel="noopener">Instagram</a></span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
